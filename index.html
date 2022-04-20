@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Feedback | Web Team | International Relations Cell</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icon.png" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--===============================================================================================-->
+</head>
+
+<body>
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form id="contactForm" class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Feedback Form <sub style="font-size: 12px;font-weight: bold;">Anonymous</sub><br /><span
+						style="font-size: 18px;font-weight: bold;">Web Team, International Relations Cell</span>
+				</span>
+
+				<label class="label-input100" for="to" style="font-weight: bold;">To Whom Do You Address? *</label>
+				<div class="wrap-input100">
+					<input autofocus id="to" class="input100" type="text" name="To"
+						placeholder="Eg. IRC, Web Team, Senior, etc." required>
+					<span class="focus-input100"></span>
+				</div>
+
+				<label class="label-input100" for="message" style="font-weight: bold;">Type Your Message *</label>
+				<div class="wrap-input100 validate-input" data-validate="Message is required">
+					<textarea id="message" class="input100" name="Message" placeholder="Type Your Message"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						Send
+					</button>
+				</div>
+			</form>
+
+			<div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
+				<img class="contact_logo" src="images/logo.png" alt="" />
+				<div class="contact_details">
+					<div class="dis-flex size1 p-b-47">
+						<div class="txt1 p-r-25">
+							<span class="lnr lnr-phone-handset"></span>
+						</div>
+
+						<div class="flex-col size2">
+							<span class="txt1 p-b-20">
+								Lets Talk
+							</span>
+
+							<span class="txt3">
+								<span style="color: white">Chesta</span> (+91 9660835171) <br />
+								<span style="color: white">Kapil Agrawal</span> (+91 8979772850) <br />
+								<span style="color: white">Jessica John Britto</span> (+91 8248032511) <br />
+								<span style="color: white">Nabhya Khoria</span> (+91 8515088390) <br />
+								<span style="color: white">Nishakar Kumar</span> (+91 7008831288) <br />
+								<span style="color: white">Shivesh Chaturvedi</span> (+91 8840884608) <br />
+							</span>
+						</div>
+					</div>
+					<div class="dis-flex size1 p-b-47">
+						<div class="txt1 p-r-25">
+							<span class="lnr lnr-envelope"></span>
+						</div>
+
+						<div class="flex-col size2">
+							<span class="txt1 p-b-20">
+								Contact Us
+							</span>
+
+							<span class="txt3">
+								<span style="color: white;">Chesta</span><br /><a
+									href="mailto:chesta0703@gmail.com">(chesta0703@gmail.com)</a><br />
+								<span style="color: white;">Kapil Agrawal</span><br /><a
+									href="mailto:kunal10061994@gmail.com">(kunal10061994@gmail.com)</a><br />
+								<span style="color: white;">Jessica John Britto</span><br /><a
+									href="mailto:jessjohnbritto@gmail.com">(jessjohnbritto@gmail.com)</a><br />
+								<span style="color: white;">Nabhya Khoria</span><br /><a
+									href="mailto:nabhyakhoria@gmail.com">(nabhyakhoria@gmail.com)</a><br />
+								<span style="color: white;">Nishakar Kumar</span><br /><a
+									href="mailto:nishakarkumar0@outlook.com">(nishakarkumar0@outlook.com)</a><br />
+								<span style="color: white;">Shivesh Chaturvedi</span><br /><a
+									href="mailto:shiveshchaturvedi.knp2019@gmail.com">(shiveshchaturvedi.knp2019@gmail.com)</a><br />
+							</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<script src="js/contact.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-23581568-13');
+	</script>
+</body>
+
+</html>
